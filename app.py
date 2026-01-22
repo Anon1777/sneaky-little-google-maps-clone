@@ -1,7 +1,7 @@
 from ortools.constraint_solver import pywrapcp, routing_enums_pb2
 import json, os, time, math, folium, requests
 
-cache_file = "sneaky_little_google_maps_clone/route_cache.json"
+cache_file = "sneaky-little-google-maps-clone/route_cache.json"
 
 # lightweight timer for terminal output
 _timer_start = time.time()
@@ -253,7 +253,7 @@ def osrm_route_geometry_safe(a, b, cache=route_cache):
     return path
 
 # load locations from external JSON to keep this file small
-locations_file = "sneaky_little_google_maps_clone/locations.json"
+locations_file = "sneaky-little-google-maps-clone/locations.json"
 with open(locations_file, "r", encoding="utf-8") as lf:
     locations_list = json.load(lf)
 
@@ -473,7 +473,7 @@ lg3.add_to(m)
 
 folium.LayerControl().add_to(m)
 
-m.save("sneaky_little_google_maps_clone/route.html")
+m.save("sneaky-little-google-maps-clone/route.html")
 
 _tick("saved route.html")
 
