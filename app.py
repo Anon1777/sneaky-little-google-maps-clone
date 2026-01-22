@@ -265,7 +265,7 @@ coords_locations = list(locations.keys())
 names_locations = list(locations.values())
 
 # locations2 as accepted schools
-locations2 = dict(list(locations.items())[:22])
+locations2 = dict(list(locations.items())[:26])
 coords_locations2 = list(locations2.keys())
 names_locations2 = list(locations2.values())
 
