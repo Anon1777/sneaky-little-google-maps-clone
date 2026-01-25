@@ -258,6 +258,7 @@ with open(locations_file, "r", encoding="utf-8") as lf:
     locations_list = json.load(lf)
 
 # build a dict preserving the JSON order: {(lat, lon): name}
+# MARK: locations
 locations = {(item["lat"], item["lon"]): item["name"] for item in locations_list}
 
 # create coord and name lists for internal use (OR-Tools, folium)
@@ -270,7 +271,7 @@ coords_locations2 = list(locations2.keys())
 names_locations2 = list(locations2.values())
 
 # locations3 as declined schools
-locations3 = dict(list(locations.items())[len(locations)-5:])
+locations3 = dict(list(locations.items())[len(locations)-6:])
 coords_locations3 = list(locations3.keys())
 names_locations3 = list(locations3.values())
 

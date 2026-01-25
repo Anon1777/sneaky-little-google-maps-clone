@@ -150,7 +150,6 @@
   {"lat": 41.39838411919794, "lon": -73.44225870237169, "name": "Western Connecticut State University"},
   {"lat": 42.33613560190064, "lon": -71.16927073117216, "name": "Boston College"},
   {"lat": 38.035654971803794, "lon": -78.50336883133161, "name": "University of Virginia"},
-  {"lat": 40.709656160951795, "lon": -74.08761630067153, "name": "New Jersey City University"},
   {"lat": 41.41817682560941, "lon": -72.89317736004394, "name": "Quinnipiac University"},
   {"lat": 35.78948035016143, "lon": -78.63739688511436, "name": "William Peace University"},
   {"lat": 40.94762526157357, "lon": -74.19678699519119, "name": "William Paterson University"},
@@ -215,5 +214,6 @@
   {"lat": 26.373746001267328, "lon": -80.10192132184983, "name": "Florida Atlantic University"},
   {"lat": 33.95623797331243, "lon": -83.37414927560975, "name": "University of Georgia"},
   {"lat": 40.806801871260085, "lon": -73.96166283123058, "name": "Columbia University"},
-  {"lat": 35.78610979576816, "lon": -78.6394662120008, "name": "University of North Carolina"}
+  {"lat": 35.78610979576816, "lon": -78.6394662120008, "name": "University of North Carolina"},
+  {"lat": 40.709656160951795, "lon": -74.08761630067153, "name": "New Jersey City University"}
 ]
